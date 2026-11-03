@@ -72,7 +72,7 @@ private fun DroidVaultScreen() {
                         label = pm.getApplicationLabel(info).toString(),
                         packageName = info.packageName,
                         versionName = pkg.versionName,
-                        versionCode = if (android.os.Build.VERSION.SDK_INT >= 28) pkg.longVersionCode else @Suppress("DEPRECATION") pkg.versionCode.toLong(),
+                        versionCode = if (android.os.Build.VERSION.SDK_INT >= 28) pkg.longVersionCode else pkg.versionCode.toLong(),
                         apkPaths = paths
                     )
                 }

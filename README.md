@@ -1,4 +1,4 @@
-# DroidVault
+# DroidVault — резервное копирование и перенос Android-приложений
 
 **DroidVault** — резервное копирование и перенос Android-приложений через ADB.
 
